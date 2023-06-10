@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+section.todo__section div.todo__content {
+  box-shadow: 0.325rem 0.5rem 0 rgb(243, 58, 106);
+  width: 40rem;
+}
+section.todo__section div.todo__content h1.todo__title {
+  text-shadow: 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.75);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+}
+section.todo__section div.todo__content .togo__logout {
+  font-family: "Poppins", sans-serif;
+}
+section.todo__section div.todo__content .todo__body .todo__add {
+  font-family: "Poppins", sans-serif;
+}
+section.todo__section div.todo__content .todo__body .todo__list {
+  min-height: 20rem;
+  max-height: 20rem;
+  overflow-y: auto;
+}
+section.todo__section div.todo__content .todo__body .todo__list ::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+section.todo__section div.todo__content .todo__body .todo__list ::-webkit-scrollbar-thumb {
+  background-color: #b1b1c1;
+  border-radius: 6px;
+}
+section.todo__section div.todo__content .todo__body .todo__list ::-webkit-scrollbar-thumb:hover {
+  background-color: #9393a5;
+}
+section.todo__section div.todo__content .todo__body .todo__list ::-webkit-scrollbar-thumb:active {
+  background-color: #78788e;
+}
+section.todo__section div.todo__content .todo__body .todo__list .todo__item-text-group {
+  font-family: "Poppins", sans-serif;
+}
+
+.todo__add__modal__content {
+  width: 30rem;
+}
+.todo__add__modal__content .todo__add__modal__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+.todo__add__modal__content .todo__add__modal__form__label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.todo__add__modal__content .todo__add__modal__form__input {
+  font-family: "Poppins", sans-serif;
+}
+
+section.login__section .login__content {
+  width: 25rem;
+  box-shadow: 0.325rem 0.5rem 0 rgb(243, 58, 106);
+}
+section.login__section .login__content .login__title {
+  text-shadow: 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.75);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+}
+section.login__section .login__content .login__subtitle {
+  font-family: "Poppins", sans-serif;
+}
+section.login__section .login__content .login__form label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+section.login__section .login__content .login__form input[type=email],
+section.login__section .login__content .login__form input[type=password] {
+  font-family: "Poppins", sans-serif;
+}
+section.login__section .login__content .login__form .login__forgot__password {
+  font-family: "Poppins", sans-serif;
+}
+section.login__section .login__content .login__form .login__button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+section.signup__section .signup__content {
+  width: 30rem;
+  box-shadow: 0.325rem 0.5rem 0 rgb(243, 58, 106);
+}
+section.signup__section .signup__content .signup__title {
+  text-shadow: 0.125rem 0.125rem 0 rgba(0, 0, 0, 0.75);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+}
+section.signup__section .signup__content .signup__subtitle {
+  font-family: "Poppins", sans-serif;
+}
+section.signup__section .signup__content .signup__form label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+section.signup__section .signup__content .signup__form input[type=email],
+section.signup__section .signup__content .signup__form input[type=password],
+section.signup__section .signup__content .signup__form input[type=text] {
+  font-family: "Poppins", sans-serif;
+}
+section.signup__section .signup__content .signup__form .signup__forgot__password {
+  font-family: "Poppins", sans-serif;
+}
+section.signup__section .signup__content .signup__form .signup__button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
