@@ -31,7 +31,7 @@ const EditTaskModal = ({ task, handleShowModal }) => {
         const updatedTask = { title, date, status };
 
         try {
-            const response = await axios.patch(`http://localhost:5000/api/todolist/${task._id}`, updatedTask, {
+            const response = await axios.patch(`https://todoappwithlogin.onrender.com/api/todolist/${task._id}`, updatedTask, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${user.token}`
