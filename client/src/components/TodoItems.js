@@ -28,7 +28,7 @@ const TodoItems = ({ task }) => {
         }
 
         try {
-            const response = await axios.delete(`http://localhost:5000/api/todolist/${task._id}`, {
+            const response = await axios.delete(`https://todoappwithlogin.onrender.com/api/todolist/${task._id}`, {
                 headers: {
                     'Authorization': `Bearer ${user.token}`
                 }
@@ -49,7 +49,7 @@ const TodoItems = ({ task }) => {
         dispatch({ type: 'EDIT_TASK', payload: updatedTask }); // Update the task status in the state immediately
 
         try {
-            await axios.patch(`http://localhost:5000/api/todolist/${task._id}`, updatedTask, {
+            await axios.patch(`https://todoappwithlogin.onrender.com/api/todolist/${task._id}`, updatedTask, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${user.token}`

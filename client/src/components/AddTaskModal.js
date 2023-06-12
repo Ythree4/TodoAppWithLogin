@@ -25,7 +25,7 @@ const AddTaskModal = ({ handleShowModal }) => {
         const task = { title, date, status }
 
         try {
-            const response = await axios.post('http://localhost:5000/api/todolist', task, {
+            const response = await axios.post('https://todoappwithlogin.onrender.com/api/todolist', task, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${user.token}`
