@@ -14,10 +14,10 @@ const TodoPage = () => {
 
     useEffect(() => {
         const fetchAllTasks = async () => {
-            let url = 'http://localhost:5000/api/todolist';
+            let url = 'https://todoappwithlogin.onrender.com/api/todolist';
             // if searchText is not empty, update the URL to use the search route
             if (searchText !== '') {
-                url = `http://localhost:5000/api/todolist/search/${searchText}`;
+                url = `https://todoappwithlogin.onrender.com/api/todolist/search/${searchText}`;
             }
 
             try {
