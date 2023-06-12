@@ -12,7 +12,7 @@ export const useSignup = () => {
     setError(null);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/user/register', {
+      const response = await axios.post('https://todoappwithlogin.onrender.com/api/user/register', {
         firstname,
         lastname,
         email,
